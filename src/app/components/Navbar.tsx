@@ -32,10 +32,7 @@ export default function Navbar({}: Props) {
       href: "/",
       title: "Home"
     },
-    {
-      href: "/guestbook",
-      title: "Guestbook"
-    },
+
     {
       href: "/projects",
       title: "Projects"

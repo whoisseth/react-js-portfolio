@@ -13,9 +13,9 @@ export default function Home() {
   return (
     <div>
       <PageTitle title="Home" />
-      <div className="w-full   flex pt-28 ">
+      <div className="w-full  flex-col sm:flex-row  flex pt-28 gap-5 ">
         {/* left */}
-        <div className="w-1/2 flex gap-2 flex-col items-center">
+        <div className="sm:w-1/2 flex gap-2 flex-col items-center px-2 text-center sm:text-left " >
           <Image
             className="w-[192px] h-[192px] rounded-full"
             src={userImg}
@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
         {/* right */}
-        <div className="w-1/2   flex flex-col gap-4 text-lg">
+        <div className="sm:w-1/2 px-2  text-center sm:text-left  flex flex-col gap-4 text-lg">
           <p>
             {` Welcome to my portfolio! I'm a versatile frontend developer
             specializing in crafting engaging and responsive web applications.`}
